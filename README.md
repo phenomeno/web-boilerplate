@@ -1,2 +1,2 @@
 # web-boilerplate
-Thin web app boilerplate using React, Mobx, Webpack, ES7, and Bootstrap 4.
+Thin web app boilerplate using React, Mobx, Webpack, ES6, and Bootstrap 4.
