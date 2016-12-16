@@ -1,7 +1,14 @@
 import React from 'react';
+import { inject, observer } from 'mobx-react';
 
+@inject('greeting') @observer
 export default class Hello extends React.Component {
   render() {
-    return <h1>Hello world</h1>;
+    const res = this.props.greeting.toName('Grace');
+    return <h1>{res}</h1>;
   }
 }
+
+Hello.propTypes = {
+  greeting: React.PropTypes.object,
+};

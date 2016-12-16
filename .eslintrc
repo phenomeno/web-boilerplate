@@ -7,6 +7,10 @@
   "rules": {
     "react/prefer-stateless-function": [0, { "ignorePureComponents": false }],
     "import/extensions": 0,
+    "import/prefer-default-export": 1,
+    "arrow-body-style": [0, "as-needed"],
+    "react/forbid-prop-types": 1,
+    "no-undef": 1,
   },
   "env": {
     "browser": true,
