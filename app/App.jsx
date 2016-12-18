@@ -2,8 +2,8 @@ import React from 'react';
 import { Provider } from 'mobx-react';
 import { Match, Miss } from 'react-router';
 
-import Hello from './Hello.jsx';
-import NotFound from './NotFound.jsx';
+import Hello from './components/Hello.jsx';
+import NotFound from './components/NotFound.jsx';
 
 export default class App extends React.Component {
   render() {
